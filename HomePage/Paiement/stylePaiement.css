@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Avenir";
+    src:
+    url(font/AvenirNextLTPro-It.otf),
+    url(font/AvenirNextLTPro-Regular.otf);
+  }
+  
+  body{
+    margin:0 auto 0 auto ;
+    padding:0;
+    width: 1440px;
+    height: 535px;
+    background-color: black;
+    font-family: "Avenir";
+  }
+  header{
+    width:1440px;
+    height:782px;
+  }
+  main{
+    height: 1000px;
+  }
+  .logo{
+    width: 113px;
+    height: 90px;
+    margin-left: 69px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    height:105px;
+    background-color:#1A1A1A;
+    color:white;
+    font-size:24px;
+  }
+  .fleche_cote{
+    position:relative;
+    left:100px;
+  }
+  .fleche_cote_1{
+    position:relative;
+    left:125px;
+  }
+  .fleche_cote_2{
+    position:relative;
+    left:115px;
+  }
+  
+  .tout_menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .li_coach {
+    transform: translateY(1em);
+  }
+  
+  nav li ul {
+    position: absolute;
+    display: none;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul li {
+    display: block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color:white;
+    background-color:#1A1A1A;
+  }
+  
+  .menu_deroulant{
+    top: 50px;
+    height:90px;
+    width:210px;
+    font-size:16px;
+    padding:0;
+    left: -60px;
+  }
+  
+  .texte_menu{
+    border-bottom: #893BFF solid 1px;
+  }
+  
+  .texte_menu_haut
+  {
+    border-bottom: #893BFF solid 1px;
+    border-top: #893BFF solid 1px;
+  }
+  
+  .footer{
+    background-color:#1A1A1A;
+    color:white;
+    height: 170px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .container_footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-around;
+    width:770px;
+    height:100px;
+  }
+  .container_footer a {
+    margin:0 70px 0 50px;
+    text-decoration: none;
+  }
+  .container_footer img {
+    margin:0 100px 0 60px;
+  }
+  .logo_footer{
+    width:177px;
+    height:151px;
+    margin: 0 0 0 -120px;
+  }
+  .logo_reseau{
+    position:relative;
+    left: 10px;
+  }
+  .lien_footer{
+    border-bottom: #893BFF solid 2px;
+    padding-bottom: 20px;
+  }
+  #logo_linkedin{
+    position:relative;
+    left: 20px;
+  }
+  footer {
+    background-color: #232023;
+    color:white;
+    font-size:12px;
+  }
+  
+  footer a {
+    color:white;
+  }
+  .footer_mention{
+    height: 70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .footer_mention a {
+    color:#893BFF; 
+  }
