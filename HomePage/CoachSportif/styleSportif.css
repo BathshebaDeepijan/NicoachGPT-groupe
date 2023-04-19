@@ -1,163 +1,343 @@
 @font-face {
-    font-family: "Avenir";
-    src:
-    url(font/AvenirNextLTPro-It.otf),
-    url(font/AvenirNextLTPro-Regular.otf);
+  font-family: "Avenir";
+  src:
+  url(../font/AvenirNextLTPro-It.otf),
+  url(../font/AvenirNextLTPro-Regular.otf);
+}
+
+body{
+  margin:0 auto 0 auto ;
+  padding:0;
+  width: 1440px;
+  background-color: black;
+  color: white;
+  font-family: "Avenir";
+}
+header{
+  width:1440px;
+  height:535px;
+}
+main{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+}
+.logo{
+  width: 113px;
+  height: 90px;
+  margin-left: 69px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height:105px;
+  background-color:#1A1A1A;
+  color:white;
+  font-size:24px;
+}
+.fleche_cote{
+  position:relative;
+  left:100px;
+}
+.fleche_cote_1{
+  position:relative;
+  left:125px;
+}
+.fleche_cote_2{
+  position:relative;
+  left:115px;
+}
+
+.tout_menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.li_coach {
+  transform: translateY(1em);
+}
+
+nav li ul {
+  position: absolute;
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color:white;
+  background-color:#1A1A1A;
+}
+
+.menu_deroulant{
+  top: 50px;
+  height:90px;
+  width:210px;
+  font-size:16px;
+  padding:0;
+  left: -60px;
+}
+
+.texte_menu{
+  border-bottom: #893BFF solid 1px;
+}
+
+.texte_menu_haut
+{
+  border-bottom: #893BFF solid 1px;
+  border-top: #893BFF solid 1px;
+}
+
+.footer{
+  background-color:#1A1A1A;
+  color:white;
+  height: 170px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container_footer{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:space-around;
+  width:770px;
+  height:100px;
+}
+.container_footer a {
+  margin:0 70px 0 50px;
+  text-decoration: none;
+}
+.container_footer img {
+  margin:0 100px 0 60px;
+}
+.logo_footer{
+  width:177px;
+  height:151px;
+  margin: 0 0 0 -120px;
+}
+.logo_reseau{
+  position:relative;
+  left: 10px;
+}
+.lien_footer{
+  border-bottom: #893BFF solid 2px;
+  padding-bottom: 20px;
+}
+#logo_linkedin{
+  position:relative;
+  left: 20px;
+}
+footer {
+  background-color: #232023;
+  color:white;
+  font-size:12px;
+}
+
+footer a {
+  color:white;
+}
+.footer_mention{
+  height: 70px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.footer_mention a {
+  color:#893BFF; 
+}
+.img_banniere{
+  width: 1440px;
+  height: 535px;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  font-size: 48px;
+}
+.container_tete{
+  display:flex;
+  justify-content:center;
+}
+  .tete{
+    width: 100px;
+    height: 100px;
   }
-  
-  body{
-    margin:0 auto 0 auto ;
-    padding:0;
-    width: 1440px;
-    height: 535px;
-    background-color: black;
-    font-family: "Avenir";
+.container_corp{
+  display:flex;
+  justify-content:center;
+}
+  .corp{
+    width: 110px;
+    height: 110px;
   }
-  header{
-    width:1440px;
-    height:782px;
+.container_jambe{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+  .jambe{
+    width: 100px;
+    height: 130px;
   }
-  main{
-    height: 1000px;
-  }
-  .logo{
-    width: 113px;
-    height: 90px;
-    margin-left: 69px;
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    height:105px;
-    background-color:#1A1A1A;
-    color:white;
-    font-size:24px;
-  }
-  .fleche_cote{
-    position:relative;
-    left:100px;
-  }
-  .fleche_cote_1{
-    position:relative;
-    left:125px;
-  }
-  .fleche_cote_2{
-    position:relative;
-    left:115px;
-  }
-  
-  .tout_menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    width: 100%;
-  }
-  
-  .li_coach {
-    transform: translateY(1em);
-  }
-  
-  nav li ul {
-    position: absolute;
-    display: none;
-  }
-  
-  nav ul li:hover > ul {
-    display: block;
-  }
-  
-  nav ul li {
-    display: block;
-  }
-  
-  nav a {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-    color:white;
-    background-color:#1A1A1A;
-  }
-  
-  .menu_deroulant{
-    top: 50px;
-    height:90px;
-    width:210px;
-    font-size:16px;
-    padding:0;
-    left: -60px;
-  }
-  
-  .texte_menu{
-    border-bottom: #893BFF solid 1px;
-  }
-  
-  .texte_menu_haut
-  {
-    border-bottom: #893BFF solid 1px;
-    border-top: #893BFF solid 1px;
-  }
-  
-  .footer{
-    background-color:#1A1A1A;
-    color:white;
-    height: 170px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .container_footer{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:space-around;
-    width:770px;
-    height:100px;
-  }
-  .container_footer a {
-    margin:0 70px 0 50px;
-    text-decoration: none;
-  }
-  .container_footer img {
-    margin:0 100px 0 60px;
-  }
-  .logo_footer{
-    width:177px;
-    height:151px;
-    margin: 0 0 0 -120px;
-  }
-  .logo_reseau{
-    position:relative;
-    left: 10px;
-  }
-  .lien_footer{
-    border-bottom: #893BFF solid 2px;
-    padding-bottom: 20px;
-  }
-  #logo_linkedin{
-    position:relative;
-    left: 20px;
-  }
-  footer {
-    background-color: #232023;
-    color:white;
-    font-size:12px;
-  }
-  
-  footer a {
-    color:white;
-  }
-  .footer_mention{
-    height: 70px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  }
-  .footer_mention a {
-    color:#893BFF; 
-  }
-  .img_banniere{
-    width: 1440px;
-    height: 535px;
-    padding: 0;
-    margin: 0;
-  }
+.abonement{
+  height:1042px;
+  width:1440px;
+  background-color:#232023;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.container_article{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.caroussel{
+  width:1440px;
+  height:1140px;
+  background-color:#232023;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.fleche_caroussel{
+  width:10px;
+  height:15px;
+}
+.text_descriptif{
+  width:1150px;
+  height:500px;
+  font-size: 24px;
+}
+.descriptif{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:730px;
+  width:1440px;
+  background-color:#1D1C1D;
+}
+#sportif{
+  color:#893BFF;
+}
+.abonement article{
+  width:311px;
+  height:500px;
+  background-color:black;
+  margin:60px;
+}
+.rond{
+  width:25px;
+  height:25px;
+  margin-right:10px;
+  margin-left:10px;
+}
+h3{
+  Width:177px;
+Height:47px;
+  font-size:30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  left:70px;
+}
+.essaie{
+  background-color:#D0B3FD;
+  color:black;
+}
+.membre{
+  background-color:#A974FA;
+  color:black;
+}
+.pro{
+  background-color:#893BFF;
+  color:black;
+}
+.fond_gris{
+background-color:#111615;
+height:70px
+}
+article p {
+font-size:20px;
+display:flex;
+align-items:center;
+}
+h4{
+text-align:center;
+font-size:30px;
+}
+.p_article{
+display:flex;
+justify-content:center;
+position:relative;
+top:-30px
+}
+.prix_membre{
+color:#D0B3FD;
+}
+.prix_pro{
+color: #893BFF;
+}
+.block_caroussel{
+width:934px;
+height:732px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.container_caroussel{
+width:345px;
+height:395px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+position:relative;
+top:-50px;
+}
+button{
+position:relative;
+top:100px;
+width:410px;
+height:80px;
+background-color: #1A1A1A;
+color:white;
+border: #893BFF solid 1px;
+font-size:24px;
+}
+form img{
+position:relative;
+left:50px;
+top:-4px;
+width:10px;
+height:10px;
+}
+.p_caroussel{
+position:relative;
+left:-180px;
+top:-150px;
+font-size:24px;
+color:#893BFF;
+}
+.block_caroussel h2{
+position:relative;
+top:-100px;
+}

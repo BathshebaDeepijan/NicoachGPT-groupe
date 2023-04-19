@@ -1,21 +1,27 @@
 @font-face {
     font-family: "Avenir";
     src:
-    url(font/AvenirNextLTPro-It.otf),
-    url(font/AvenirNextLTPro-Regular.otf);
+    url(../font/AvenirNextLTPro-It.otf),
+    url(../font/AvenirNextLTPro-Regular.otf);
   }
   
   body{
     margin:0 auto 0 auto ;
     padding:0;
     width: 1440px;
-    height: 535px;
-    background-color:white;
+    background-color: black;
+    color: white;
     font-family: "Avenir";
   }
   header{
     width:1440px;
-    height:782px;
+    height:535px;
+  }
+  main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
   }
   .logo{
     width: 113px;
@@ -161,3 +167,178 @@
   h2{
     font-size: 48px;
   }
+  .container_tete{
+    display:flex;
+    justify-content:center;
+  }
+    .tete{
+      width: 100px;
+      height: 100px;
+    }
+  .container_corp{
+    display:flex;
+    justify-content:center;
+  }
+    .corp{
+      width: 110px;
+      height: 110px;
+    }
+  .container_jambe{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+    .jambe{
+      width: 100px;
+      height: 130px;
+    }
+  .abonement{
+    height:1042px;
+    width:1440px;
+    background-color:#232023;
+     display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+  }
+  .container_article{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .caroussel{
+    width:1440px;
+    height:1140px;
+    background-color:#232023;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .fleche_caroussel{
+    width:10px;
+    height:15px;
+  }
+  .text_descriptif{
+    width:1150px;
+    height:500px;
+    font-size: 24px;
+  }
+  .descriptif{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:730px;
+    width:1440px;
+    background-color:#1D1C1D;
+  }
+  #webDev{
+    color:#893BFF;
+  }
+  .abonement article{
+    width:311px;
+    height:500px;
+    background-color:black;
+    margin:60px;
+  }
+  .rond{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+    margin-left:10px;
+  }
+  h3{
+    Width:177px;
+  Height:47px;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    left:70px;
+  }
+  .essaie{
+    background-color:#D0B3FD;
+    color:black;
+  }
+  .membre{
+    background-color:#A974FA;
+    color:black;
+  }
+  .pro{
+    background-color:#893BFF;
+    color:black;
+  }
+.fond_gris{
+  background-color:#111615;
+  height:70px
+}
+article p {
+  font-size:20px;
+  display:flex;
+  align-items:center;
+}
+h4{
+  text-align:center;
+  font-size:30px;
+}
+.p_article{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:-30px
+}
+.prix_membre{
+  color:#D0B3FD;
+}
+.prix_pro{
+  color: #893BFF;
+}
+.block_caroussel{
+  width:934px;
+  height:732px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.container_caroussel{
+  width:345px;
+  height:395px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  top:-50px;
+}
+button{
+  position:relative;
+  top:100px;
+  width:410px;
+  height:80px;
+  background-color: #1A1A1A;
+  color:white;
+  border: #893BFF solid 1px;
+  font-size:24px;
+}
+form img{
+  position:relative;
+  left:50px;
+  top:-4px;
+  width:10px;
+  height:10px;
+}
+.p_caroussel{
+  position:relative;
+  left:-180px;
+  top:-150px;
+  font-size:24px;
+  color:#893BFF;
+}
+.block_caroussel h2{
+  position:relative;
+  top:-100px;
+}
+  
