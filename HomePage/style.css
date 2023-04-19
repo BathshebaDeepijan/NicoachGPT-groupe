@@ -1,10 +1,11 @@
+/* font */
 @font-face {
   font-family: "Avenir";
   src:
   url(font/AvenirNextLTPro-It.otf),
   url(font/AvenirNextLTPro-Regular.otf);
 }
-
+/* mesure du corp du site */
 body{
   margin:0 auto 0 auto ;
   padding:0;
@@ -17,10 +18,17 @@ header{
   width:1440px;
   height:535px;
 }
+/* nav barre */
 .logo{
   width: 113px;
   height: 90px;
   margin-left: 69px;
+}
+.img_banniere{
+  width: 1440px;
+  height: 535px;
+  padding: 0;
+  margin: 0;
 }
 nav {
   display: flex;
@@ -93,7 +101,7 @@ nav a {
   border-bottom: #893BFF solid 1px;
   border-top: #893BFF solid 1px;
 }
-
+/* footer */
 .footer{
   background-color:#1A1A1A;
   color:white;
@@ -152,7 +160,7 @@ footer a {
 .footer_mention a {
   color:#893BFF; 
 }
-
+/* 1ere section */
 .nicoach {
   background-color: #232023;
   color:white;
@@ -176,6 +184,9 @@ footer a {
 h2{
   font-size: 48px;
 }
+.mot_nicoach{
+  color: #893BFF;
+}
 .gpt{
   font-size: 14px;
   color: #893BFF;
@@ -184,7 +195,7 @@ h2{
   width: 455px;
   height: 600px;
 }
-
+/* 2eme section */
 .equipe{
   background-color:#1A1A1A;
   color:white;
@@ -225,6 +236,7 @@ h2{
   left: 100px;
   top:2px;
 }
+/* 3eme section */
 .nos_coach{
   background-color:#232023;
   color:white;
@@ -269,15 +281,6 @@ h2{
 .fleche_list_caoch_3{
   position:relative;
   left:775px;
-}
-.img_banniere{
-  width: 1440px;
-  height: 535px;
-  padding: 0;
-  margin: 0;
-}
-.mot_nicoach{
-  color: #893BFF;
 }
 .lien_coach{
   font-size: 24px;;
