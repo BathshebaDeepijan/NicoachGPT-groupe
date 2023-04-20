@@ -10,7 +10,7 @@
     <body>
         <header>
             <nav>
-                <a href="../index.html">
+                <a class="lien_logo"href="../index.html">
                     <img class="logo" src="../Image/logo_transparent 1.svg" alt="logo nicoachGPT">
                 </a>
                 <ul class="tout_menu">
@@ -45,46 +45,61 @@
             </section>
             <!-- Partie "notre équipe" (D2)--> 
             <section class="equipe_block"> 
-                    <h2>Notre équipe</h2>
+                    <h2 id="notre_équipe">Notre équipe</h2>
                     <p id="texte_notre_équipe">Nous nous investison corps et âme dans nos projets.</p>
             <!--Block équipe (répété 4x)-->      
                 <div class="four_profils">
-                    <div id="block_profil_Batsheba">
-                        <h3 class="nom_de_léquipe">Batsheba Deepijan</h3>
-                        <p class="fonctions_de_léquipe">Development specialist</p>
-                        <img src="../Image/Photo_Bathsheba.svg" alt="Portrait de Batsheba Deepijan" class ="portrait">
-                        <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
+
+                        <div id="block_profil_Batsheba">
+                            <div clas="texte_profil">
+                                <h3 class="nom_de_léquipe">Batsheba Deepijan</h3>
+                                <p class="fonctions_de_léquipe">Development specialist</p>
+                                <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
+                            </div>
+                            <img src="../Image/Photo_Bathsheba.svg" alt="Portrait de Batsheba Deepijan" class ="portrait">
+                        </div> 
+
+                        <div id="block_profil_Camille">
+                            <div clas="texte_profil"> 
+                                <h3 class="nom_de_léquipe">Camille Marchandon</h3>
+                                <p class="fonctions_de_léquipe">Design specialist</p>
+                                <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
+                            </div>
+                            <img src="../Image/Photo_Cam.svg" alt="Portrait de Camille Marchandon" class ="portrait">
                     </div>
-                    <div id="block_profil_Camille">
-                        <h4 class="nom_de_léquipe">Camille Marchandon</h4>
-                        <p class="fonctions_de_l'-équipe">Design specialist</p>
-                        <img src="../Image/Photo_Cam.svg" alt="Portrait de Camille Marchandon" class ="portrait">
-                        <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
-                    </div>
+
                     <div id="block_profil_Julien">
-                        <h5 class="nom_de_léquipe">Julien Daulne</h5>
-                        <p class="fonctions_de_léquipe">Development specialist</p>
+                        <div clas="texte_profil"> 
+                            <h3 class="nom_de_léquipe">Julien Daulne</h3>
+                            <p class="fonctions_de_léquipe">Development specialist</p>
+                            <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
+                        </div>
                         <img src="../Image/Photo_Julien.svg" alt="Portrait de Julien Daulne" class ="portrait">
-                        <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
                     </div>
+
                     <div id="block_profil_Nicolas">
-                        <h6 class="nom_de_léquipe">Nicolas Jamar</h6>
-                        <p call="fonctions_de_l'équipe">Spiritual Master</p>
+                        <div class="texte_profil"> 
+                            <h3 class="nom_de_léquipe">Nicolas Jamar</h3>
+                            <p class="fonctions_de_léquipe">Spiritual Master</p>
+                            <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
+                        </div>
                         <img src="../Image/Photo_Nico.svg" alt="Portrait de Nicolas Jamar" class ="portrait">
-                        <img src="../Image/Linkedin Logo.svg" alt="Linkedin Logo" class="logo_linkedin_profils">
                     </div>
-                </div>  
+
             </section>   
             <!-- Partie Nos engagements (D3)--> 
-            <section>  
-                <div>
-                    <h6 class=titre_général> Nos engagements </h6>
-                    <ul>
-                        <li>Un service personnel en fonctions de vos besoins. </li>
-                        <li>Une équipe accésible, là pour répondre à vos besoins. </li>
-                        <li>Un prix démocratique pour partager le savoir. </li>
-                        <li>Un Nicoach aussi authentique que possible et toujours disponible. </li>
-                    </ul>    
+            <section id="nos_engagements">  
+                <div id="texte_last_div">
+                    <!--Erreur de synthaxe, devrait être un h2 mais impossible sans changer le sreste du code ^^'-->
+                    <h3 id="Nos_engagements"> Nos engagements </h3>
+                    <div id="liste_place">
+                        <ul>
+                            <li>Un service personnel en fonctions de vos besoins. </li>
+                            <li>Une équipe accésible, là pour répondre à vos besoins. </li>
+                            <li>Un prix démocratique pour partager le savoir. </li>
+                            <li>Un Nicoach aussi authentique que possible et toujours disponible. </li>
+                        </ul>    
+                    </div>
                 </div>
             </section> 
         </main>

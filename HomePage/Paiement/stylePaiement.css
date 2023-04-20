@@ -13,12 +13,12 @@
     background-color: black;
     font-family: "Avenir";
   }
-  header{
-    width:1440px;
-    height:782px;
-  }
+ header{
+  height: 105px;
+ }
   main{
-    height: 1000px;
+    color:white;
+    background-color:#232023;
   }
   .lien_logo{
     height:105px;
@@ -33,7 +33,7 @@
   nav {
     display: flex;
     align-items: center;
-    height:105px;
+    height:155px;
     background-color:#1A1A1A;
     color:white;
     font-size:24px;
@@ -163,3 +163,135 @@
   .footer_mention a {
     color:#893BFF; 
   }
+  .abonement article{
+    width:311px;
+    height:500px;
+    background-color:black;
+    margin:60px;
+  }
+  .rond{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+    margin-left:10px;
+  }
+  h3{
+    Width:177px;
+  Height:47px;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    left:70px;
+  }
+  .essaie{
+    background-color:#D0B3FD;
+    color:black;
+  }
+  .membre{
+    background-color:#A974FA;
+    color:black;
+  }
+  .pro{
+    background-color:#893BFF;
+    color:black;
+  }
+.fond_gris{
+  background-color:#111615;
+  height:70px
+}
+article p {
+  font-size:20px;
+  display:flex;
+  align-items:center;
+}
+h4{
+  text-align:center;
+  font-size:30px;
+}
+.p_article{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:-30px
+}
+.prix_membre{
+  color:#D0B3FD;
+}
+.prix_pro{
+  color: #893BFF;
+}
+.abonement{
+  height:651px;
+  width:1440px;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.container_article{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.abonement{
+  height:651px;
+  width:1440px;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin-top:130px;
+}
+.container_article{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.abonement h2{
+  position:relative;
+  left:-380px;
+}
+h2{
+  font-size: 48px;
+}
+.block_membre{
+  border: #00FF66 solid 1px;
+}
+.text_section1{
+  margin-left:140px;
+  padding-top:0;
+  margin-top:0;
+  position:relative;
+  top:150px;
+  height:350px;
+  width:1234px;
+}
+.text_a_souligner{
+  border-bottom:#893BFF solid 2px;
+  padding-bottom:50px;
+  text-align:left;
+}
+.mot_en_mauve{
+  color:#893BFF;
+}
+.commande{
+  height:1000px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+.commande h2{
+  position:relative;
+  top:-300px;
+  margin-left:150px;
+}
+form{
+  width:536px;
+  height:628px;
+  position:relative;
+  top:300px;
+  left:-200px
+}
