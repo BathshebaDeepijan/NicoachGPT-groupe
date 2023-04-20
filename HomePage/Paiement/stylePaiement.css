@@ -20,6 +20,11 @@
   main{
     height: 1000px;
   }
+  .lien_logo{
+    height:105px;
+    margin:0;
+    padding:0;
+  }
   .logo{
     width: 113px;
     height: 90px;
