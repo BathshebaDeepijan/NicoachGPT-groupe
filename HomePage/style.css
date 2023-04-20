@@ -19,16 +19,23 @@ header{
   height:535px;
 }
 /* nav barre */
-.logo{
-  width: 113px;
-  height: 90px;
-  margin-left: 69px;
-}
+
 .img_banniere{
   width: 1440px;
   height: 535px;
   padding: 0;
   margin: 0;
+}
+
+.logo{
+  width: 113px;
+  height: 90px;
+  margin-left: 69px;
+}
+.lien_logo{
+  height:105px;
+  margin:0;
+  padding:0;
 }
 nav {
   display: flex;
@@ -37,6 +44,9 @@ nav {
   background-color:#1A1A1A;
   color:white;
   font-size:24px;
+  position:fixed;
+  width: 1440px;
+  z-index:9999;
 }
 .fleche_cote{
   position:relative;
