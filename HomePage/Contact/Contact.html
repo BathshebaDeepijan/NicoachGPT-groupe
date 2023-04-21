@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styleContact.css">
-        <title>Contact</title>
+        <title>NicoachGPT</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="../index.html">
+                <a class="lien_logo" href="../index.html">
                     <img class="logo" src="../Image/logo_transparent 1.svg" alt="logo nicoachGPT">
                 </a>
                 <ul class="tout_menu">
@@ -25,15 +25,48 @@
                     <li><a href="../Contact/Contact.html">Contact</a></li>
                 </ul>
             </nav>
-                <img class="img_banniere" src="../Image/Fond_Contact.svg" alt="Banière">
         </header>
-        <main>
-
+            <main>
+                <div class="Container">
+                    <img class="img_Fond_Contact" src="../Image/Fond_Contact.svg" alt="Fond_Contact">
+                    <div class="Fond_Contact_Noir"></div>     
+                    <div class="Fcc">
+                        <p id="p1">Nous Contacter</p>
+                        <p id="p2">Contactez notre équipe pour en savoir plus sur NicoachGPT</p>
+                        <form>
+                            <div id="container_nom_prénom">
+                                <div>
+                                    <label for="Nom">Nom </label><br><br>
+                                    <input type="text" id ="Nom">
+                                </div>
+                                <div>
+                                    <label for="Prénom">Prénom</label><br><br>
+                                    <input type="text" id="Prenom">
+                                </div>
+                            </div>
+                            <label for="Email">Email</label><br><br>
+                            <input type="text" id="Email"><br>
+                            <label for="Sujet">Sujet</label><br><br>
+                            <input type="text" id="Sujet"><br>
+                            <label for="Votre message">Votre message</label><br><br>
+                            <textarea name="message" id="message"></textarea>
+                        </form>
+                        <div id="Envoyer">
+                            <button class="Envoyer" type="button">Envoyer<img class="fleche_cote_env"src="../Image/flecheCote.svg" alt="flèche coté"></button>
+                        </div>
+                    </div>
+                    <div class = "container_visages">
+                        <img class="Bathsebha" src="../image/Ellispe_Bathsebha.svg" alt="Bathsebha">
+                        <img class="Cam" src="../image/Ellipse_Cam.svg" alt="Cam">
+                        <img class="Julien" src="../image/Ellipse_Julien.svg" alt="Julien">
+                    </div>
+                    </div>
+                </div>      
         </main>
         <footer>
             <section class="footer">
                 <div class="logo_footer">
-                    <a href="index.html">
+                    <a href="../index.html">
                     <img class="logo_footer" src="../Image/logo_transparent 1.svg" alt="logo">
                     </a>
                 </div>
@@ -42,7 +75,7 @@
                         <a href="../index.html">Acceuil</a>
                         <a href="../QuiSommesNous/QuiSommesNous.html">Qui sommes nous ?</a>
                         <a href="../Contact/Contact.html">Contact</a>
-                        <a href="#liste_coach">Coach</a>
+                        <a href="../index.html#liste_coach">Coach</a>
                     </div>
                     <div class="logo_reseau">
                         <img id="logo_youtube"src="../Image/Youtube logo.svg" alt="logo youtube">
@@ -58,4 +91,5 @@
             </section>
         </footer>
     </body>
-</html>
+
+</html
