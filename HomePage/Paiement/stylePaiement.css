@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Avenir";
   src:
-  url(font/AvenirNextLTPro-It.otf),
-  url(font/AvenirNextLTPro-Regular.otf);
+  url(../font/AvenirNextLTPro-It.otf),
+  url(../font/AvenirNextLTPro-Regular.otf);
 }
 
 body{
