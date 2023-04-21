@@ -223,7 +223,7 @@
   }
   .caroussel{
     width:1440px;
-    height:1140px;
+    height:1240px;
     background-color:#232023;
     display:flex;
     justify-content:center;
@@ -234,8 +234,7 @@
     width:20px;
     height:25px;
     position:relative;
-    top:50px;
-    margin: 30px;
+    margin: 50px;
   }
   .text_descriptif{
     width:1150px;
@@ -333,7 +332,7 @@ h4{
 }
 button{
   position:relative;
-  top:100px;
+  top:200px;
   width:410px;
   height:80px;
   background-color: #1A1A1A;
@@ -351,12 +350,69 @@ form img{
 .p_caroussel{
   position:relative;
   left:-180px;
-  top:-150px;
+  top:-300px;
   font-size:24px;
   color:#893BFF;
 }
 .block_caroussel h2{
   position:relative;
-  top:-100px;
+  top:-250px;
 }
-  
+
+#precedentTete {
+  left: 0;
+}
+
+#suivantTete {
+  right: 0;
+}
+
+#block_tete:hover #precedentTete,
+#block_tete:hover #suivantTete {
+  opacity: 1;
+}
+#precedentCorp {
+  left: 0;
+}
+
+#suivantCorp {
+  right: 0;
+}
+
+#block_corp:hover #precedentCorp,
+#block_corp:hover #suivantCorp {
+  opacity: 1;
+}
+#precedentJambe {
+  left: 0;
+}
+
+#suivantJambe {
+  right: 0;
+}
+
+#block_jambe:hover #precedentJambe,
+#block_jambe:hover #suivantJambe {
+  opacity: 1;
+}
+#block_tete{
+  display:flex;
+  align-items:center;
+}
+#tete{
+  width:100px;
+}
+#block_corp{
+  display:flex;
+  align-items:center;
+}
+#corp{
+  width:200px;
+}
+#block_jambe{
+  display:flex;
+  align-items:center;
+}
+#jambe{
+width:200px;
+}

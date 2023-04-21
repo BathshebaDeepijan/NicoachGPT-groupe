@@ -79,19 +79,25 @@
                     <p class="p_caroussel">Un accompagnement 100% personnalisable</p>
                     <article class="container_caroussel">
                         <div class="container_tete">
-                            <img class="fleche_caroussel" src="../Image/fleche gauche coach.svg" alt="fleche gauche">
-                            <img class="tete" src="../Image/teteNicoachNormal.png" alt="tete nicoach">
-                            <img class="fleche_caroussel"src="../Image/fleche droite coach.svg" alt="fleche droite">
+                            <div id="block_tete">
+                                <div id="precedentTete" onclick="ChangeSlideTete(-1)"><img class="fleche_caroussel" src="../Image/fleche gauche coach.svg" alt="fleche gauche"></div>
+                                <img id="tete" src="../Image/teteNicoachLunette.png" alt="tete nicoach">
+                                <div id="suivantTete" onclick="ChangeSlideTete(1)"><img class="fleche_caroussel"  src="../Image/fleche droite coach.svg" alt="fleche droite"></div>
+                                </div>
                         </div>
                         <div class="container_corp">
-                            <img class="fleche_caroussel"src="../Image/fleche gauche coach.svg" alt="fleche gauche">
-                            <img class="corp" src="../Image/vesteAddidas.png" alt="survet">
-                            <img class="fleche_caroussel"src="../Image/fleche droite coach.svg" alt="fleche droite">
+                            <div id="block_corp">
+                                <div id="precedentCorp" onclick="ChangeSlideCorp(-1)"><img class="fleche_caroussel" src="../Image/fleche gauche coach.svg" alt="fleche gauche"></div>
+                                <img id="corp" src="../Image/tShirt.png" alt="survet">
+                                <div id="suivantCorp" onclick="ChangeSlideCorp(1)"><img class="fleche_caroussel" src="../Image/fleche droite coach.svg" alt="fleche droite"></div>
+                            </div>
                         </div>
                         <div class="container_jambe">
-                            <img class="fleche_caroussel" src="../Image/fleche gauche coach.svg" alt="fleche gauche">
-                            <img class="jambe" src="../Image/shortCourtNoir.png" alt="jeans">
-                            <img class="fleche_caroussel" src="../Image/fleche droite coach.svg" alt="fleche droite">
+                            <div id="block_jambe">
+                                <div id="precedentJambe" onclick="ChangeSlideJambe(-1)"><img class="fleche_caroussel" src="../Image/fleche gauche coach.svg" alt="fleche gauche"></div>
+                                <img id="jambe" src="../Image/jeans.png" alt="survet">
+                                <div id="suivantJambe" onclick="ChangeSlideJambe(1)"><img class="fleche_caroussel" src="../Image/fleche droite coach.svg" alt="fleche droite"></div>
+                            </div>
                         </div>
                     </article>
                     <form action="../Paiement/Paiement.html">
@@ -127,5 +133,6 @@
                     <a href=""> Politique en matière de cookies </a>et <a href=""> Règles d'entreprise contraignantes.</a></p>
             </section>
         </footer>
+        <script src="sportif.js"></script>
     </body>
 </html>
